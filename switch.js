@@ -45,8 +45,6 @@ switch(item) {
 		alert('makanan / minuman SEHAT!');
 		break;
 	case 'hamburger' :
-		alert('makanan / minuman KURANG SEHAT!');
-		break;
 	case 'softdrink' :
 		alert('makanan / minuman KURANG SEHAT!');
 		break;
