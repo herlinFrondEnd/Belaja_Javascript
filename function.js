@@ -87,13 +87,59 @@
 
 // global scope / window scope
 
+// var a = 1;
+// function tes(a) {
+//  	console.log(a);
+// }
+// tes(a);
+// console.log(a);
 
-var a = 1;
-function tes(a) {
- 	console.log(a);
+
+
+
+
+
+
+// rekursif
+
+// function tes(n){
+// 	// if (n === 0) return;
+// 	if (n === 0) {
+// 		// var a = 1;
+// 		// return console.log(a);
+// 		return;
+// 	}
+
+// 	console.log(n);
+// 	tes(n - 1);
+
+// }
+
+// tes(10);
+
+
+function faktorial(n) {
+	if ( n === 0 ) return 1;
+	return n * faktorial(n - 1);
 }
-tes(a);
-console.log(a);
+
+var hasil = faktorial(5);
+console.log(hasil);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
