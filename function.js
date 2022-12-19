@@ -8,15 +8,29 @@
 
 
 
-function jumlahVolumeDuaKubus(a, b) {
-	var total, volumeA, volumeB;
 
-	volumeA = a * a * a;
-	volumeB = b * b * b;
-	total = volumeA + volumeB;
+// function jumlahVolumeDuaKubus(a, b) {
+// 	var total, volumeA, volumeB;
 
-	return total;
+// 	volumeA = a * a * a;
+// 	volumeB = b * b * b;
+// 	total = volumeA + volumeB;
+
+// 	return total;
+// }
+
+// var hasil = jumlahVolumeDuaKubus(8,3);
+// console.log(hasil);
+
+
+  
+
+
+function tambah(a, b) {
+	return a + b;
 }
 
-var hasil = jumlahVolumeDuaKubus(8,3);
+var a = parseInt(prompt('Masukkan nilai 1 :'));
+var b = parseInt(prompt('Masukkan nilai 2 :'));
+var hasil = tambah(a,b);
 console.log(hasil);
