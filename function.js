@@ -68,20 +68,32 @@
 
 
 
-function tambah(){
-	var hasil = 0;
-	for( var i = 0; i < arguments.length; i++ ) {
-		hasil += arguments[i];
-	}
+// function tambah(){
+// 	var hasil = 0;
+// 	for( var i = 0; i < arguments.length; i++ ) {
+// 		hasil += arguments[i];
+// 	}
 
-	return hasil;
+// 	return hasil;
+// }
+
+// console.log(tambah(1,2,3,4,5));
+
+
+
+
+
+
+
+// global scope / window scope
+
+
+var a = 1;
+function tes(a) {
+ 	console.log(a);
 }
-
-console.log(tambah(1,2,3,4,5));
-
-
-
-
+tes(a);
+console.log(a);
 
 
 
